@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     snapshot.data!.name,
                     style: const TextStyle(fontSize: 24),
                   ),
-                  Text('ESTADOR: ${snapshot.data!.status}'),
+                  Text('ESTADO: ${snapshot.data!.status}'),
                   Text('ESPECIES: ${snapshot.data!.species}'),
                   Text('GENERO: ${snapshot.data!.gender}'),
                 ],
